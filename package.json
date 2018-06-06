@@ -1,0 +1,23 @@
+{
+	"name": "pwa-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "service-worker.js",
+	"scripts": {
+		"sw": "sw-precache --config=tools/precache.js --verbose"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/piyushabbi/pwa-gitTrends.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/piyushabbi/pwa-gitTrends/issues"
+	},
+	"homepage": "https://github.com/piyushabbi/pwa-gitTrends#readme",
+	"devDependencies": {
+		"sw-precache": "^5.2.1"
+	}
+}
